@@ -8,18 +8,19 @@ import Link from 'gatsby-link'
 const BlogPage = ({data}) => (
   <Layout>
     <SEO title="Home"/>
-    <h1>Latest Post</h1>
+    <h1>Последние посты</h1>
     {data
       .allMarkdownRemark
       .edges
       .map(post => (
         <div key={post.node.id}>
-          <h3>{post.node.frontmatter.title}</h3>
-          <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
+          <h3 id="blog-title">{post.node.frontmatter.title}</h3>
+      <small id="blog-posted-by">Написан {post.node.frontmatter.author}{','} {post.node.frontmatter.date}</small>
+
+          <span id="excerpt">{post.node.excerpt}</span>
           <br/>
           <br/>
-          <Link to={post.node.frontmatter.path}>Read more</Link>
-          <br/>
+          <Link to={post.node.frontmatter.path}>Читать дальше</Link>
           <br/>
           <br/>
           <hr/>
@@ -30,7 +31,9 @@ const BlogPage = ({data}) => (
 
 export const pageQuery = graphql `
     query BlogIndexQuery {
-      allMarkdownRemark {
+      allMarkdownRemark 
+      (sort: {fields: frontmatter___date, order: DESC})
+      {
         edges {
           node {
               id
@@ -40,6 +43,7 @@ export const pageQuery = graphql `
               date
               author
             }
+            excerpt
           }
           
         }

@@ -335,9 +335,7 @@ hgroup {
 ul {
   FONT-WEIGHT: 500;
   justify-content: space-around;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-top: 0;
+  margin: 0 0rem 3rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -641,4 +639,13 @@ footer {
 div#footer-content {
   position: relative;
   padding: 0.4rem;
+}
+
+h3#blog-title {
+  margin-bottom: 0.6rem;
+}
+
+small#blog-posted-by {
+  display: block;
+  margin-bottom: 1rem;
 }

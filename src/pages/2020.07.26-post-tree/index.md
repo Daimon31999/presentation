@@ -1,12 +1,15 @@
 ---
 path: "/post-three"
 date: "2020-07-26"
-title: "My Third Gatsby Post"
-author: "Dima Hinev"
+title: "Я маленький"
+author: "Максим Хинев"
 ---
 
-This is my very **third** blog post in Gatsby
 
-**Экзотическая кошка** - порода [кошек](https://ru.wikipedia.org/wiki/Кошка) с характерной *приплюснутой* мордочкой.
 
-![cat](https://removebgblog.files.wordpress.com/2019/06/cats_and_more2.gif "Как тебе кошка?")
+
+
+
+Я Максик мне **5** лет!
+
+![cat](https://aroundpet.ru/wp-content/uploads/kak-uhazhivat-za-mesyachnym-kotenkom-bez-koshki-1170x750.jpg "Как тебе кошка?")

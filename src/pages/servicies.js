@@ -4,14 +4,17 @@ import Layout from '../components/layout';
 const ServiciesPage = () => (
   <Layout>
     <div>
-      <h1>Our Cervicies</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic non odit
-        eaque est cupiditate maxime! Praesentium illo veniam distinctio nesciunt sequi
-        fuga, eligendi, commodi dolorum quas dignissimos corrupti at.
+      <h1>Что могу предложить</h1>
+      <p>
+        Могу: <b>сделать сайт, погулять, познакомиться, сделать всё что попросите (за деньги)</b>
       </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis hic non odit
-        eaque est cupiditate maxime! Praesentium illo veniam distinctio nesciunt sequi
-        fuga, eligendi, commodi dolorum quas dignissimos corrupti at.
+      <p>
+        <h3>Контакты:</h3> 
+        <b>Phone - </b>(373) 680 079 42 <br/>
+        <b>Mail - </b>dimahinev31999@gmail.com<br/>
+        <b>Telegram - </b>@dh_1999<br/>
+        <b>Slack - </b>dimahinev31999@gmail.com<br/>
+
       </p>
     </div>
   </Layout>

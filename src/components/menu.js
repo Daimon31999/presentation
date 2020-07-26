@@ -15,17 +15,17 @@ const Menu = () => (
     }}>
 
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">Домой</Link>
       </li>
       <li>
         <Link to="/about">
-          About</Link>
+          Обо мне</Link>
       </li>
       <li>
-        <Link to="/servicies">Servicies</Link>
+        <Link to="/servicies">Услуги</Link>
       </li>
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link to="/blog">Блог</Link>
       </li>
     </ul>
 
