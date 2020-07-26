@@ -333,14 +333,16 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
-  margin-right: 0;
+  FONT-WEIGHT: 500;
+  justify-content: space-around;
+  margin-left: 5rem;
+  margin-right: 5rem;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 3rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -619,4 +621,24 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+a {
+  text-decoration: none;
+    color: #333;
+}
+
+footer {
+  position: fixed;
+    bottom: 0;
+    background: #eee;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+div#footer-content {
+  position: relative;
+  padding: 0.4rem;
 }
