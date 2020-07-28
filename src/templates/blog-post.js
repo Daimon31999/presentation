@@ -3,20 +3,27 @@ import Link from 'gatsby-link'
 import {graphql} from 'gatsby'
 import Layout from '../components/layout'
 
+import { useRemarkForm } from 'gatsby-tinacms-remark'
+import { usePlugin } from 'tinacms'
+
 
 export default function Template({data}) {
-  const post = data.markdownRemark
+  // const post = data.markdownRemark
+
+  const [markdownRemark, form] = useRemarkForm(data.markdownRemark)
+  usePlugin(form)
+
 
   return (
   <Layout>
       <Link to="/blog">Назад</Link>
       <hr/>
-      <h1>{post.frontmatter.title}</h1>
-      <h4 style={{marginBottom: '5rem'}}>Написанно {post.frontmatter.author}
+      <h1>{markdownRemark.frontmatter.title}</h1>
+      <h4 style={{marginBottom: '5rem'}}>Написанно {markdownRemark.frontmatter.author}
       {`, `}
-         {post.frontmatter.date}</h4>
+         {markdownRemark.frontmatter.date}</h4>
       <div dangerouslySetInnerHTML={{
-        __html: post.html
+        __html: markdownRemark.html
       }}/>
 
 </Layout>
@@ -26,6 +33,7 @@ export default function Template({data}) {
 export const postQuery = graphql `
     query BlogPostByPath($path: String!){
         markdownRemark(frontmatter: {path: {eq: $path}}){
+          ...TinaRemark
             html
             frontmatter {
                 path

@@ -8,6 +8,6 @@ author: Максим Хинев
 
 Я малыш
 
-![](https://i.ytimg.com/vi/2giQVPIl9JM/maxresdefault.jpg)
+[![](https://i.ytimg.com/vi/2giQVPIl9JM/maxresdefault.jpg)](https://i.ytimg.com/vi/2giQVPIl9JM/maxresdefault.jpg)
 
 ![cat](https://aroundpet.ru/wp-content/uploads/kak-uhazhivat-za-mesyachnym-kotenkom-bez-koshki-1170x750.jpg "Как тебе кошка?")
