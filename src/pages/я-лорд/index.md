@@ -1,5 +1,5 @@
 ---
-title: Я лорд
+title: Я лордик
 path: /lord-one
 date: 2020-07-29T15:27:01.252Z
 author: Лордик
