@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `dh.md`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `dh.md - Все о Диме`,
     author: `@gatsbyjs`,
   },
   plugins: [
