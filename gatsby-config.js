@@ -5,16 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-tinacms',
-      options: {
-        enabled: process.env.NODE_ENV !== 'production',
-        plugins: ['gatsby-tinacms-git', 'gatsby-tinacms-remark'],
-        sidebar: {
-          position: 'fixed'
-        },
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
