@@ -1,13 +1,12 @@
 ---
-title: Я крутой
+title: О носорогах
 path: /post-one
-date: '2020-07-24'
+date: "2020-07-24"
 author: Дима Хинев
 ---
 
-Мне **20** лет, цвету и пахну
+## Носороги
 
-а вот и я: 
+Носороги - семейство непарнокопытных млекопитающих из надсемейства носорогобразных, содержащее пять современных видов, распространённых в Африке и Азии.
 
-![](https://www.meme-arsenal.com/memes/0f8152c702c8391b297d8c5d636d4e47.jpg)
-
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waterberg_Nashorn2.jpg/550px-Waterberg_Nashorn2.jpg)
